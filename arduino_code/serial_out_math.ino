@@ -18,9 +18,9 @@ void doreset() {
 //no exit
 void mainloop(){
   while (1) {
-    digitalWrite(LED_BUILTIN, HIGH);   
-    delay(200);                        
-    digitalWrite(LED_BUILTIN, LOW);    
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(200);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(200);
     int i,j;
     i = 0;
